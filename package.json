@@ -1,0 +1,23 @@
+{
+  "name": "ios-simulator-app-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "author": "Nicolas Charpentier <nicolas.charpentier079@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lint-staged": "^8.1.0",
+    "prettier": "1.15.3"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
