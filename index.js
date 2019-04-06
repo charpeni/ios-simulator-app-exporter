@@ -19,8 +19,8 @@ function getDirectories(source) {
     .filter(file => fs.lstatSync(file).isDirectory());
 }
 
-function getDevices() {
-  return getDirectories(homedir() + DEVICES_PATH).map(devicePath => {
+function getDevices(searchingPath = homedir() + DEVICES_PATH) {
+  return getDirectories(searchingPath).map(devicePath => {
     const device = plist.readFileSync(`${devicePath}/device.plist`);
 
     return {
@@ -172,3 +172,7 @@ async function main() {
 }
 
 main();
+
+module.exports = {
+  getDevices,
+};
