@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UDID</key>
+	<string>148019A3-566F-4C21-A4FC-6FD75D9F051E</string>
+	<key>deviceType</key>
+	<string>com.apple.CoreSimulator.SimDeviceType.iPhone-7</string>
+	<key>isDeleted</key>
+	<false/>
+	<key>name</key>
+	<string>iPhone 7</string>
+	<key>runtime</key>
+	<string>com.apple.CoreSimulator.SimRuntime.iOS-12-1</string>
+	<key>state</key>
+	<integer>3</integer>
+</dict>
+</plist>
