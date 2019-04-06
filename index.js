@@ -3,6 +3,7 @@ const { join } = require('path');
 const { homedir } = require('os');
 const plist = require('simple-plist');
 const inquirer = require('inquirer');
+const chalk = require('chalk');
 
 const DEVICES_PATH = '/Library/Developer/CoreSimulator/Devices/';
 const APPS_PATH = '/data/Containers/Bundle/Application';
@@ -132,14 +133,9 @@ async function selectAnApp(devices) {
     },
   ]);
 
+  console.log(`🥧   ${chalk.bold('Full path:')} ${application.app.file}`);
   console.log(
-    `✨  ${application.app.CFBundleDisplayName} [${
-      application.app.CFBundleIdentifier
-    } - ${application.app.CFBundleVersion}]`
-  );
-  console.log(`🥧  Full path: ${application.app.file}`);
-  console.log(
-    `📁  Directory: ${application.app.file
+    `📁  ${chalk.bold('Directory:')} ${application.app.file
       .split('/')
       .slice(0, -1)
       .join('/')}`
