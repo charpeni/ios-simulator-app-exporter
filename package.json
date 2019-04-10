@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "ios-simulator-app-exporter": "index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "jest",
