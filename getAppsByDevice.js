@@ -43,6 +43,7 @@ function getAppsByDevice(searchingPath = homedir() + DEVICES_PATH) {
 
               const {
                 CFBundleDisplayName,
+                CFBundleName,
                 CFBundleIdentifier,
                 CFBundleShortVersionString,
                 CFBundleVersion,
@@ -51,6 +52,7 @@ function getAppsByDevice(searchingPath = homedir() + DEVICES_PATH) {
               return {
                 file,
                 CFBundleDisplayName,
+                CFBundleName,
                 CFBundleIdentifier,
                 CFBundleShortVersionString,
                 CFBundleVersion,

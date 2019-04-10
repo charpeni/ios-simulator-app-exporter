@@ -8,6 +8,7 @@ Array [
       Object {
         "CFBundleDisplayName": "pasta",
         "CFBundleIdentifier": "org.reactjs.native.example.pasta",
+        "CFBundleName": "example",
         "CFBundleShortVersionString": "3.0",
         "CFBundleVersion": "8",
         "file": "/Devices/148019A3-566F-4C21-A4FC-6FD75D9F051E/data/Containers/Bundle/Application/43FB53D5-6F42-4F38-A810-6C1A28B393E9/example.app",
@@ -15,6 +16,7 @@ Array [
       Object {
         "CFBundleDisplayName": "example",
         "CFBundleIdentifier": "org.reactjs.native.example.example",
+        "CFBundleName": "example",
         "CFBundleShortVersionString": "1.0",
         "CFBundleVersion": "1",
         "file": "/Devices/148019A3-566F-4C21-A4FC-6FD75D9F051E/data/Containers/Bundle/Application/950806E1-3259-4089-8EF3-DF0941E3B5B7/example.app",
@@ -33,6 +35,7 @@ Array [
       Object {
         "CFBundleDisplayName": "example",
         "CFBundleIdentifier": "org.reactjs.native.example.example",
+        "CFBundleName": "example",
         "CFBundleShortVersionString": "1.0",
         "CFBundleVersion": "1",
         "file": "/Devices/1E756F87-FF14-45C0-9775-A4469F72599E/data/Containers/Bundle/Application/B3674201-2F90-4759-988E-CDB42181FD80/example.app",
@@ -60,6 +63,7 @@ Array [
       Object {
         "CFBundleDisplayName": "example",
         "CFBundleIdentifier": "org.reactjs.native.example.example",
+        "CFBundleName": "example",
         "CFBundleShortVersionString": "1.0",
         "CFBundleVersion": "1",
         "file": "/Devices/C321F874-FA51-4DC5-8B9A-2E6E095D8C90/data/Containers/Bundle/Application/4FEF6828-573D-4ACA-922D-85C1EEA7E509/example.app",

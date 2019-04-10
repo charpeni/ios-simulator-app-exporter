@@ -54,9 +54,9 @@ async function selectAnApp(devices) {
           ...device.apps.map(app => ({
             name: `${device.name} (${prettifyRuntimeVersion(
               device.runtime
-            )}) - ${app.CFBundleDisplayName} [${app.CFBundleIdentifier} - ${
-              app.CFBundleVersion
-            }]`,
+            )}) - ${app.CFBundleDisplayName || app.CFBundleName} [${
+              app.CFBundleIdentifier
+            } - ${app.CFBundleVersion}]`,
             value: {
               device,
               app,
