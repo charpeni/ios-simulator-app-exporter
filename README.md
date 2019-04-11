@@ -29,7 +29,7 @@ But, actually, it works with the simulator too!
 
 ## Installation
 
-`ios-simulator-app-exporter` is written in JavaScript and is available with the JS package manager of your choice ([Yarn](https://yarnpkg.com/en/), [npm](https://www.npmjs.com/get-npm), and probably others). 
+`ios-simulator-app-exporter` is written in JavaScript and is available with the JS package manager of your choice ([Yarn](https://yarnpkg.com/en/), [npm](https://www.npmjs.com/get-npm), and probably others).
 
 Pick the one you are more comfortable with.
 

@@ -1,7 +1,7 @@
 {
   "name": "ios-simulator-app-exporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "List your iOS simulator devices and their applications, and help you to quickly export them.",
   "main": "index.js",
   "bin": {
     "ios-simulator-app-exporter": "index.js"
