@@ -33,13 +33,21 @@ But, actually, it works with the simulator too!
 
 Pick the one you are more comfortable with.
 
-### Yarn
+### Using `npx` (_recommended_)
+
+This method is preferred if you don't want to install global packages.
+
+Nothing to do here, skip directly to the usage section with `npx`.
+
+### Using global CLI
+
+#### Yarn
 
 ```
 yarn global add ios-simulator-app-exporter
 ```
 
-### npm
+#### npm
 
 ```
 npm install -g ios-simulator-app-exporter
@@ -48,6 +56,14 @@ npm install -g ios-simulator-app-exporter
 ## Usage
 
 Run the following command:
+
+### Using `npx` (_recommended_)
+
+```
+npx ios-simulator-app-exporter
+```
+
+### Using global CLI
 
 ```
 ios-simulator-app-exporter
