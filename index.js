@@ -2,8 +2,14 @@
 
 const inquirer = require('inquirer');
 const chalk = require('chalk');
+const program = require('commander');
 
 const getDevices = require('./getAppsByDevice');
+const { version } = require('./package.json');
+
+program
+  .version(version, '-v, --version', 'output the version number')
+  .parse(process.argv);
 
 function activeDevicesOnlyFilter(device) {
   return device.state === 3;
