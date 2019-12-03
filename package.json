@@ -17,19 +17,19 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^3.0.0",
-    "inquirer": "^6.2.2",
+    "inquirer": "^7.0.0",
     "simple-plist": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb": "17.1.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "jest": "^24.7.1",
     "lint-staged": "^9.2.1",
-    "prettier": "1.18.2"
+    "prettier": "1.19.1"
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
