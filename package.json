@@ -15,7 +15,7 @@
   "author": "Nicolas Charpentier <nicolas.charpentier079@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "commander": "^3.0.0",
     "inquirer": "^7.0.0",
     "simple-plist": "^1.0.0"
