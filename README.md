@@ -5,17 +5,17 @@
 
 iOS Simulator App Exporter is a script that will help you to list all your simulator devices and their applications, so you can quickly locate and export applications.
 
-- **Easily** share an iOS simulator app to other simulator, even on other mac.
+- **Easily** share an iOS simulator app to other simulators, even on another mac.
 - **No need to build** the Xcode project and deal with dependencies.
-- **Ideal** to share an internal build with your teammates without them having to deal with build tools.
+- **Ideal** for sharing an internal build with your teammates without them having to deal with build tools.
 
 ![Example](https://user-images.githubusercontent.com/7189823/55847008-c17ac480-5b15-11e9-8fd0-a1dc2b03ec9a.gif)
 
 ## Motivation
 
-My principal motivation behind this was to allow my teammates without the project installed and configured to quickly test multiple iOS devices through simulators without TestFlight and physical devices. I used this to share proofs of concept, design iterations, etc. to teammates from other departments who don't want to deal with build tools to give feedback.
+The principal motivation behind this was to allow teammates to test quickly multiple iOS devices through simulators without TestFlight and physical devices, and without the hassle of configuring the project and building it with Xcode. It was used to share proofs of concept, design iterations, etc. to teammates from other departments who didn't want to deal with build tools to give feedback.
 
-To share an iOS application to physical devices, you will have to generate a `.ipa` file, then distribute it with TestFlight or other alternative tools. But, to share an iOS application to simulators, you just have to find the generated `.app` on the selected simulator and export it.
+To share an iOS application to physical devices, you have to generate a `.ipa` file, then distribute it with TestFlight or other alternative tools. But, to share an iOS application to simulators, you just have to find the generated `.app` on the selected simulator and export it.
 
 Searching for that on Google lead to answers like this:
 
