@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
-    "commander": "^5.1.0",
+    "commander": "^7.0.0",
     "inquirer": "^7.0.0",
     "simple-plist": "^1.0.0"
   },
