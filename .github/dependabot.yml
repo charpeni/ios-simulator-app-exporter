@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: commander
+    versions:
+    - 6.2.1
+    - 7.0.0
+  - dependency-name: inquirer
+    versions:
+    - 7.3.3
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
